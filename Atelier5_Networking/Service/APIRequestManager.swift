@@ -21,6 +21,7 @@ class APIRequestManager {
                     let decoder = JSONDecoder()
                     let dateFormatter = DateFormatter()
                     dateFormatter.dateFormat = "yyyy-MM-dd"
+                    dateFormatter.timeZone = TimeZone(identifier: "GMT")
                     decoder.dateDecodingStrategy = .formatted(dateFormatter)
                     do {
                         let moviesResult = try decoder.decode(MoviesResult.self, from: data)

@@ -24,6 +24,6 @@ class MovieDetailCell: UITableViewCell {
         }
         titleLabel.text = movie.title
         descriptionLabel.text = movie.overview
-        ratingLabel.text = String(format: "Note : %.1f/10", movie.vote_average)
+        ratingLabel.text = String(format: "Note : %.1f/10", movie.voteAverage)
     }
 }
