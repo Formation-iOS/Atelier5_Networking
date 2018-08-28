@@ -142,7 +142,6 @@
 				2D322AD61FA9C7FC00179CDD /* Frameworks */,
 				2D322AD71FA9C7FC00179CDD /* Resources */,
 				691B40629A2BB426E0190391 /* [CP] Embed Pods Frameworks */,
-				3032521B8781391AEB569800 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,21 +200,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3032521B8781391AEB569800 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atelier5_Networking/Pods-Atelier5_Networking-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		691B40629A2BB426E0190391 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
